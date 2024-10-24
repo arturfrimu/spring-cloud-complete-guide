@@ -1,32 +1,30 @@
 # Rate limiter
-![image](https://github.com/user-attachments/assets/9ee88773-aab6-4f03-96b9-76a4f9150e3a)
-![image](https://github.com/user-attachments/assets/3cd7a68a-aa4b-46c2-bce1-5bd144f9a656)
-![image](https://github.com/user-attachments/assets/c5d2d7f3-897e-4807-a542-e560667b658a)
+<details>
+  <summary>Click on me</summary>
 
-## Leaking bucket
-![image](https://github.com/user-attachments/assets/885a2610-635c-44d0-ae45-9604f9a9413d)
+  ## Leaking bucket
+  ![image](https://github.com/user-attachments/assets/885a2610-635c-44d0-ae45-9604f9a9413d)
 
-The leaking bucket rate limiter controls data flow by discarding excess requests that exceed the bucket's capacity, allowing processing at a constant, predetermined rate.
+  The leaking bucket rate limiter controls data flow by discarding excess requests that exceed the bucket's capacity, allowing processing at a constant, predetermined rate.
 
-## Token bucket
-![image](https://github.com/user-attachments/assets/bd219bdc-fa7b-4b8d-b57e-d1aa2f39c250)
+  ## Token bucket
+  ![image](https://github.com/user-attachments/assets/bd219bdc-fa7b-4b8d-b57e-d1aa2f39c250)
 
-The token bucket rate limiter fills up with tokens at a steady rate and uses tokens to handle bursts of requests.
+  The token bucket rate limiter fills up with tokens at a steady rate and uses tokens to handle bursts of requests.
 
-## Fixed window
-![image](https://github.com/user-attachments/assets/0dd3d79b-c6d7-4a11-b591-a0dd0b1774c4)
+  ## Fixed window
+  ![image](https://github.com/user-attachments/assets/0dd3d79b-c6d7-4a11-b591-a0dd0b1774c4)
 
-The fixed window rate limiter tracks requests in a set time period, blocking any that exceed the limit until the next window starts.
+  The fixed window rate limiter tracks requests in a set time period, blocking any that exceed the limit until the next window starts.
 
-## Slider window counter
-![image](https://github.com/user-attachments/assets/43899961-60bc-459f-9e70-6ea50a37deb0)
+  ## Slider window counter
+  ![image](https://github.com/user-attachments/assets/43899961-60bc-459f-9e70-6ea50a37deb0)
 
-The sliding window counter rate limiter tracks requests over a rolling time period, allowing for a smoother limit on incoming requests.
+  The sliding window counter rate limiter tracks requests over a rolling time period, allowing for a smoother limit on incoming requests.
 
-## Slider window log
-![image](https://github.com/user-attachments/assets/1c30b7aa-ba61-401f-8066-771f6a5ab489)
+  ## Slider window log
+  ![image](https://github.com/user-attachments/assets/1c30b7aa-ba61-401f-8066-771f6a5ab489)
 
-The sliding window log rate limiter tracks request rates over time in logarithmic intervals, allowing fine-grained control over traffic bursts and smooth rate limiting.
+  The sliding window log rate limiter tracks request rates over time in logarithmic intervals, allowing fine-grained control over traffic bursts and smooth rate limiting.
 
-
-
+</details>
